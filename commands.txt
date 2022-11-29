@@ -8,3 +8,6 @@ git init - инциализация git репозитория
 git remote add origin <SSH-url> - привязка локального репозитория к удаленному
 git remote -v - посмотреть к какому репозиторию привязан
 git remote remove <"name" (любой например "origin")> - удалить привязку
+git add . - упаковать все данные в коробку
+git commit -m "Some message" - маркировка
+git push origin master - отправка данных
